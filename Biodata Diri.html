@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0; /* Ganti warna latar sesuai selera */
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            margin: 50px auto;
+            width: 80%;
+        }
+        .foto {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #35e209;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://voice.global/assets/2020/07/Photo_Daden-2.jpg" alt="Foto Diri" class="foto">
+        <h1>Biodata Diri</h1>
+        <table>
+            <tr>
+            </tr>
+                <th>Nama</th>
+                <td>Arga Bisma Ginanjar</td>
+            </tr>
+            <tr>
+                <th>Tampat, Tanggal Lahir</th>
+                <td>Cianjur,18 Febuari 1997</td>
+            </tr>
+            <tr>
+                <th>Agama</th>
+                <th>Islam</th>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <th>Jl. KH Achmad Munawar No.101, Sukasari, Kec. Cilaku, Kabupaten Cianjur, Jawa Barat 43285</th>
+
+            </tr>
+            </table>
+    </div>
+    <button><a href="file:///D:/Coding%20Indika/Bahan%20Company%20Profile2/Halaman%20Utama%20(Homepage).html" target="_blank">halaman sebelumnya</a></button>
+    <button><a href="file:///D:/Coding%20Indika/Bahan%20Company%20Profile2/C3.html" target="_blank">halaman selanjutnya</a></button>
+    <script>
+        // JavaScript untuk interaktivitas (opsional)
+        // Contoh: Mengubah warna latar saat tombol diklik
+        document.body.onclick = function() {
+            document.body.style.backgroundColor = getRandomColor();
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+</html>
